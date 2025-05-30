@@ -1,7 +1,7 @@
 # GraalVM JDK for pterodactyl-based systems.
 
-Currently **the builds** is **above**, feel free to **ask questions** on **issues**.
-I will add **latest versions** when **dropped**. Especially **latest versions** of **each versions**.
+Currently **the builds** is **above**, feel free to **ask questions** on **issues**. I will add **latest versions** when **dropped**.
+Especially **latest versions** of **each versions**.
 
 |  Java  | GraalVM CE (Community Edition)          |
 |--------|-----------------------------------------|
