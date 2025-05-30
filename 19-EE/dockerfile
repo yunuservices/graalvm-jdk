@@ -28,14 +28,6 @@
     ENV JAVA_HOME=/opt/java/graalvm \
         PATH="/opt/java/graalvm/bin:$PATH"
     
-    RUN apt-get update -y \
-      && apt-get install --no-install-recommends -y make g++ cmake \
-      && git clone https://github.com/microsoft/mimalloc /opt/mimalloc \
-      && cd /opt/mimalloc \
-      && cmake /opt/mimalloc \
-      && make -C /opt/mimalloc \
-      && chmod -R 777 /opt/mimalloc/libmimalloc.so
-    
     RUN useradd -d /home/container -m container
     
     USER        container
