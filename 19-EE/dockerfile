@@ -35,5 +35,5 @@
     
     WORKDIR     /home/container
     
-    COPY        ./../entrypoint.sh ./../flags.sh /
+    COPY        ./../entrypoint.sh /entrypoint.sh
     CMD         ["/bin/bash", "/entrypoint.sh"]
