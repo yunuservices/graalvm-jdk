@@ -10,7 +10,3 @@ I will add **latest versions** when **dropped**. Especially **latest versions** 
 | 23.0.2 |`ghcr.io/yunuservices/graalvm-jdk:23.0.2`|
 | 22.0.2 |`ghcr.io/yunuservices/graalvm-jdk:22.0.2`|
 | 21.0.2 |`ghcr.io/yunuservices/graalvm-jdk:21.0.2`|
-
-|    Java    | GraalVM EE (Enterprise Edition)        |
-|------------|----------------------------------------|
-| 17(22.3.2) |`ghcr.io/yunuservices/graalvm-jdk:17-EE`|
