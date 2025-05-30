@@ -3,6 +3,8 @@
 Currently **the builds** is **above**, feel free to **ask questions** on **issues**. I will add **latest versions** when **dropped**.
 Especially **latest versions** of **each versions**.
 
+**DISCORD** @yunuservices # for contact.
+
 |  Java  | GraalVM CE (Community Edition)          |
 |--------|-----------------------------------------|
 | 24.0.1 |`ghcr.io/yunuservices/graalvm-jdk:24.0.1`|
