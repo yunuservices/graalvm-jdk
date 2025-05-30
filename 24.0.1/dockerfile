@@ -1,10 +1,10 @@
-    MAINTAINER @yunuservices
-    
     FROM ubuntu:22.04
 
     ARG TARGETPLATFORM
     ARG GRAAL_VERSION=24.0.1
-    ARG JAVA_VERSION=24    
+    ARG JAVA_VERSION=24
+    
+    MAINTAINER @yunuservices
 
     ENV DEBIAN_FRONTEND=noninteractive
     ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
