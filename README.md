@@ -12,3 +12,8 @@ Especially **latest versions** of **each versions**.
 | 23.0.2 |`ghcr.io/yunuservices/graalvm-jdk:23.0.2`|
 | 22.0.2 |`ghcr.io/yunuservices/graalvm-jdk:22.0.2`|
 | 21.0.2 |`ghcr.io/yunuservices/graalvm-jdk:21.0.2`|
+
+|    Java    | GraalVM EE (Enterprise Edition)        |
+|------------|----------------------------------------|
+| 19(22.3.1) |`ghcr.io/yunuservices/graalvm-jdk:19-EE`|
+| 17(22.3.5) |`ghcr.io/yunuservices/graalvm-jdk:17-EE`|

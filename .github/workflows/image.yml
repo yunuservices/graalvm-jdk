@@ -20,6 +20,8 @@ jobs:
           - 23.0.2
           - 22.0.2
           - 21.0.2
+          - 19-EE
+          - 17-EE
     steps:
       - name: Git Checkout
         uses: actions/checkout@v3
