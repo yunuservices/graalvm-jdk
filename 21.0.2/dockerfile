@@ -7,9 +7,7 @@
     MAINTAINER @yunuservices
     
     ENV DEBIAN_FRONTEND=noninteractive
-    
     ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
-    
     
     RUN apt-get update -y \
       && apt-get install -y --no-install-recommends curl ca-certificates openssl git tar sqlite3 fontconfig tzdata locales iproute2 \
@@ -30,7 +28,6 @@
     ENV JAVA_HOME=/opt/java/graalvm \
         PATH="/opt/java/graalvm/bin:$PATH"
     
-
     RUN useradd -d /home/container -m container
     
     USER        container
@@ -39,5 +36,4 @@
     WORKDIR     /home/container
     
     COPY        ./../entrypoint.sh /entrypoint.sh
-    
     CMD         ["/bin/bash", "/entrypoint.sh"]
