@@ -1,6 +1,6 @@
 # GraalVM JDK for pterodactyl-based systems.
 
-Currently **the builds** is **below**, feel free to **ask questions** on **issues**. I will add **latest versions** when **dropped**.
+Currently **the builds** is **below**, feel free to **ask questions** on **issues**. I will add **latest versions** when they **dropped**.
 Especially **latest versions** of **each versions**.
 
 **DISCORD** @yunuservices # for contact.
